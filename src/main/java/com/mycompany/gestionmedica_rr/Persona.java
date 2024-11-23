@@ -43,6 +43,10 @@ public class Persona {
         this.direccion_RR = direccion_RR;
     }
     
-    
+    public void mostrarInformacion() {
+        System.out.println("Nombre: " + nombre_RR);
+        System.out.println("Edad: " + edad_RR);
+        System.out.println("Dirección: " + direccion_RR);
+    }
     
 }
